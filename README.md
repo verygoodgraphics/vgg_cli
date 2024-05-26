@@ -15,7 +15,7 @@ $ npm install -g @verygoodgraphics/vgg-cli
 $ vgg-cli COMMAND
 running command...
 $ vgg-cli (--version)
-@verygoodgraphics/vgg-cli/0.0.0 darwin-arm64 node-v18.18.2
+@verygoodgraphics/vgg-cli/0.0.1 darwin-arm64 node-v18.18.2
 $ vgg-cli --help [COMMAND]
 USAGE
   $ vgg-cli COMMAND
