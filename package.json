@@ -1,7 +1,7 @@
 {
   "name": "@verygoodgraphics/vgg-cli",
   "description": "Command-line tool that converts design files into VGG format.",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "author": "Chaoya Li",
   "bin": {
     "vgg-cli": "./bin/run.js"
