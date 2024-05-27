@@ -22,3 +22,18 @@ USAGE
 ...
 ```
 <!-- usagestop -->
+
+# Development Usage
+
+```
+$ pnpm install
+$ pnpm run build
+$ ./bin/run.js --help # running scripts built in `dist` folder
+$ ./bin/dev.js --help # running scripts in `command` folder
+```
+
+Use `convert` command
+```
+$ ./bin/dev.js convert xxx.fig
+Saved as "xxx.vgg"
+```
