@@ -3,37 +3,26 @@
 
 Command-line tool that converts design files into VGG format.
 
+> Note vgg-cli rely on Daruma's online service for conversion. By using vgg-cli, we assume you agree with Daruma's [terms of service](https://daruma.run/terms) and [privacy policy](https://daruma.run/privacy).
+
 [![oclif](https://img.shields.io/badge/cli-oclif-brightgreen.svg)](https://oclif.io)
 [![Version](https://img.shields.io/npm/v/@verygoodgraphics/vgg-cli.svg)](https://npmjs.org/package/@verygoodgraphics/vgg-cli)
 [![Downloads/week](https://img.shields.io/npm/dw/@verygoodgraphics/vgg-cli.svg)](https://npmjs.org/package/@verygoodgraphics/vgg-cli)
 
 
 # Usage
-<!-- usage -->
 ```sh-session
 $ npm install -g @verygoodgraphics/vgg-cli
-$ vgg-cli COMMAND
-running command...
-$ vgg-cli (--version)
-@verygoodgraphics/vgg-cli/0.0.1 linux-x64 node-v18.20.2
-$ vgg-cli --help [COMMAND]
-USAGE
-  $ vgg-cli COMMAND
-...
+$ vgg-cli convert xxx.fig
+Saved as "xxx.vgg"
 ```
-<!-- usagestop -->
-
 # Development Usage
 
-```
+```sh-session
 $ pnpm install
 $ pnpm run build
-$ ./bin/run.js --help # running scripts built in `dist` folder
-$ ./bin/dev.js --help # running scripts in `command` folder
-```
-
-Use `convert` command
-```
+$ ./bin/run.js --help # running built scripts in `dist` folder
+$ ./bin/dev.js --help # running original scripts in `command` folder
 $ ./bin/dev.js convert xxx.fig
 Saved as "xxx.vgg"
 ```
