@@ -1,7 +1,4 @@
 {
-  "name": "@verygoodgraphics/vgg-cli",
-  "description": "Command-line tool that converts design files into VGG format.",
-  "version": "0.0.1",
   "author": "Chaoya Li",
   "bin": {
     "vgg-cli": "./bin/run.js"
@@ -12,6 +9,7 @@
     "@oclif/plugin-help": "^6",
     "@oclif/plugin-plugins": "^5"
   },
+  "description": "Command-line tool that converts design files into VGG format.",
   "devDependencies": {
     "@oclif/prettier-config": "^0.2.1",
     "@oclif/test": "^3",
@@ -43,14 +41,17 @@
   ],
   "license": "MIT",
   "main": "dist/index.js",
-  "type": "module",
+  "name": "@verygoodgraphics/vgg-cli",
   "oclif": {
     "bin": "vgg-cli",
-    "dirname": "vgg-cli",
     "commands": "./dist/commands",
+    "dirname": "vgg-cli",
     "plugins": [],
     "topicSeparator": " ",
     "topics": {}
+  },
+  "publishConfig": {
+    "access": "public"
   },
   "repository": "verygoodgraphics/vgg_cli",
   "scripts": {
@@ -62,5 +63,7 @@
     "test": "mocha --forbid-only \"test/**/*.test.ts\"",
     "version": "oclif readme && git add README.md"
   },
-  "types": "dist/index.d.ts"
+  "type": "module",
+  "types": "dist/index.d.ts",
+  "version": "0.0.1"
 }
