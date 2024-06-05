@@ -3,7 +3,7 @@
 
 Command-line tool that converts design files into VGG format.
 
-> Note vgg-cli rely on Daruma's online service for conversion. By using vgg-cli, we assume you agree with Daruma's [terms of service](https://daruma.run/terms) and [privacy policy](https://daruma.run/privacy).
+> Note that vgg-cli relies on Daruma's online service for conversion. By using vgg-cli, we assume you agree to Daruma's [terms of service](https://daruma.run/terms) and [privacy policy](https://daruma.run/privacy).
 
 [![oclif](https://img.shields.io/badge/cli-oclif-brightgreen.svg)](https://oclif.io)
 [![Version](https://img.shields.io/npm/v/@verygoodgraphics/vgg-cli.svg)](https://npmjs.org/package/@verygoodgraphics/vgg-cli)
