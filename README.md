@@ -26,3 +26,20 @@ $ ./bin/dev.js --help # running original scripts in `command` folder
 $ ./bin/dev.js convert xxx.fig
 Saved as "xxx.daruma"
 ```
+
+# FAQ
+
+## What is VGG format?
+
+VeryGoodGraphics (VGG) is a next-gen vector graphics format which is defined in [VGG Specs](https://docs.verygoodgraphics.com/specs/overview).
+
+## What is .daruma file?
+
+Daruma file conforms to [VGG File Spec](https://docs.verygoodgraphics.com/specs/file) which is just a zip of JSONs.
+
+## Why do I need network access?
+
+The conversion is done online by Daruma, which requires network access.
+
+
+For more questions, please join our [Discord channel](https://discord.gg/89fFapjfgM).
