@@ -14,7 +14,7 @@ Command-line tool that converts design files into VGG format.
 ```sh-session
 $ npm install -g @verygoodgraphics/vgg-cli
 $ vgg-cli convert xxx.fig
-Saved as "xxx.vgg"
+Saved as "xxx.daruma"
 ```
 # Development Usage
 
@@ -24,5 +24,5 @@ $ pnpm run build
 $ ./bin/run.js --help # running built scripts in `dist` folder
 $ ./bin/dev.js --help # running original scripts in `command` folder
 $ ./bin/dev.js convert xxx.fig
-Saved as "xxx.vgg"
+Saved as "xxx.daruma"
 ```

@@ -168,6 +168,6 @@ export default class Convert extends Command {
 
     // Download converted file
     const {url: downloadUrl} = await getDarumaDownload(darumaImport.darumaId)
-    await downloadFile(downloadUrl, replaceExt(filename, 'vgg'))
+    await downloadFile(downloadUrl, replaceExt(filename, 'daruma'))
   }
 }
